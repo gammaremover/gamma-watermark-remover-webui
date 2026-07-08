@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/gamma-watermark-remover-webui?color=8b3dff&label=PyPI)](https://pypi.org/project/gamma-watermark-remover-webui/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-8b3dff.svg)](LICENSE)
-[![Hosted version](https://img.shields.io/badge/🌐%20Hosted%20version-gammaremover.com-8b3dff)](https://gammaremover.com)
+[![Hosted version](https://img.shields.io/badge/Hosted%20version-gammaremover.com-8b3dff)](https://gammaremover.com)
 
 ![Gamma Watermark Remover local web UI — drag & drop, files stay on your machine](assets/banner.webp)
 
@@ -36,11 +36,11 @@ Text stays selectable, slides stay editable. If an export flattened the badge in
 
 | Form | Where |
 |------|-------|
-| 🌐 In-browser (zero install) | [gammaremover.com](https://gammaremover.com) |
-| ⌨️ CLI + Python library | [gamma-watermark-remover](https://github.com/gammaremover/gamma-watermark-remover) |
-| 🖥 Local web UI (this repo) | `pipx install gamma-watermark-remover-webui` |
-| 🤖 MCP server (Claude & agents) | [gamma-watermark-remover-mcp](https://github.com/gammaremover/gamma-watermark-remover-mcp) |
-| 📎 Agent skill (Claude Code / OpenClaw) | [gamma-watermark-remover-skill](https://github.com/gammaremover/gamma-watermark-remover-skill) |
+| In-browser (zero install) | [gammaremover.com](https://gammaremover.com) |
+| ⌨ CLI + Python library | [gamma-watermark-remover](https://github.com/gammaremover/gamma-watermark-remover) |
+| Local web UI (this repo) | `pipx install gamma-watermark-remover-webui` |
+| MCP server (Claude & agents) | [gamma-watermark-remover-mcp](https://github.com/gammaremover/gamma-watermark-remover-mcp) |
+| Agent skill (Claude Code / OpenClaw) | [gamma-watermark-remover-skill](https://github.com/gammaremover/gamma-watermark-remover-skill) |
 
 ## Responsible use
 
