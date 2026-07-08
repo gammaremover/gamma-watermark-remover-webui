@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gamma-watermark-remover-webui"
+version = "1.0.0"
+description = 'Local web UI to remove the "Made with Gamma" watermark from PDF/PPTX — runs on your machine, nothing uploaded.'
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "GammaRemover", email = "support@gammaremover.com" }]
+keywords = ["gamma", "watermark", "remover", "pdf", "pptx", "web-ui", "local", "fastapi"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business",
+]
+dependencies = [
+    "gamma-watermark-remover>=1.0.0",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "python-multipart>=0.0.9",
+]
+
+[project.urls]
+Homepage = "https://gammaremover.com"
+Repository = "https://github.com/gammaremover/gamma-watermark-remover-webui"
+
+[project.scripts]
+gamma-watermark-remover-webui = "gamma_watermark_remover_webui.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["gamma_watermark_remover_webui"]
