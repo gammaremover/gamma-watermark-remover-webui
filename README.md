@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-8b3dff.svg)](LICENSE)
 [![Hosted version](https://img.shields.io/badge/🌐%20Hosted%20version-gammaremover.com-8b3dff)](https://gammaremover.com)
 
+![Gamma Watermark Remover local web UI — drag & drop, files stay on your machine](assets/banner.webp)
+
 A **local web tool** to remove the **"Made with Gamma"** watermark from PDF and PowerPoint (.pptx) files exported from [Gamma.app](https://gamma.app). One command starts a drag-and-drop page on `localhost` — your files are processed in memory on your own machine and **never leave it**.
 
 > No Python? No problem — [gammaremover.com](https://gammaremover.com) runs the same engine directly in your browser (WebAssembly, no upload either).
